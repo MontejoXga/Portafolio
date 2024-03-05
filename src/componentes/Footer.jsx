@@ -7,7 +7,7 @@ export default function Footer() {
             <div className='container '>
                 <div className='d-flex justify-content-center align-items-center '>
                     <div className='' style={{opacity: .7}}> 
-                        &copy; 2022 M.A.M.G. Todos los derechos reservados.
+                        &copy; 2024 M.A.M.G. Todos los derechos reservados.
                     </div>
                 </div>
             </div>
