@@ -1,13 +1,8 @@
-import React,{useState} from 'react'
-import BurguerButton from '../function/BurguerButton.jsx'
+import React from 'react'
 
 function Navbar() {
 
-  const[clicked, setClicked]=useState(false)
 
-  const handleClick = () =>{
-    setClicked(!clicked)
-  }
 
   return (
     <>

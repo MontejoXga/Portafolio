@@ -12,7 +12,10 @@ export default function Aboutme() {
                 <div className='col-lg-6 d-flex flex-column justify-content-center mb-5'>
                   <div className='mx-auto align-self-center'>
                     <h1 className='display-4 fw-bold mb-4 mt-4'>Sobre <span className='text-titulo'>Mi.</span></h1>
-                    <p className='lead mb-2 text-titulo'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, error nam magnam accusantium sapiente voluptatem omnis minima laudantium nihil blanditiis, eligendi, distinctio aut eaque exercitationem temporibus aperiam optio dolor porro.</p>
+                    <p className='lead mb-2 text-titulo'>
+                    ¡ Hola ! mi nombre es Marco Antonio, soy un apasionado desarrollador Full Stack con experiencia en el desarrollo
+                     de aplicaciones web y el de aplicar soluciones tecnologicas ante diferentes problematicas.
+                    </p>
                     <div className='text-center mb-4'>
                       <a href={pdf} className='btn btn-outline-primary' target='blank'>Ver CV</a>
                     </div>
@@ -36,7 +39,7 @@ export default function Aboutme() {
                 </div>
                 <div className='col-lg-6 d-flex mb-5 mt-5'>
                   <div className='container mx-auto align-self-center '>
-                    <img src={perfil} class="img-fluid rounded-circle" alt="imagen" />
+                    <img src={perfil} className="img-fluid rounded-circle" alt="imagen" />
                   </div>
                 </div>
             </div>
